@@ -2,7 +2,7 @@
 
 ## 配置如图
 
-![image-20210718102030629](D:\Jong\Documents\Code\hp-pavilion-laptop-14-bf0xx-oc-efi\README.assets\image-20210718102030629.png)
+![image-20210718102030629](https://gitee.com/flying-pigs_zh/hp-pavilion-laptop-14-bf0xx-oc-efi/raw/master/README.assets/image-20210718102030629.png)
 
 ## 已知问题
 

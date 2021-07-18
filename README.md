@@ -16,7 +16,7 @@ OC版可以引导10.13.6和10.15.3
 
 ## 截图
 
-![image-20210718115719733](/Users/zhonghao/Documents/code/hp-pavilion-laptop-14-bf0xx-oc-efi/README.assets/image-20210718115719733.png)
+![image-20210718115719733](https://gitee.com/flying-pigs_zh/hp-pavilion-laptop-14-bf0xx-oc-efi/raw/master/README.assets/image-20210718115719733.png)
 
 
 

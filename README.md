@@ -45,7 +45,7 @@
 
 ## Screenshots
 
-![屏幕快照 2022-08-07 下午6.25.24](/Users/zhonghao/Documents/Code/HP-Pavilion-14-bf033tx/README.assets/屏幕快照 2022-08-07 下午6.25.24.png)
+![屏幕快照 2022-08-07 下午6.25.24](https://gitee.com/zo98/HP-Pavilion-14-bf033tx/raw/master/README.assets/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202022-08-07%20%E4%B8%8B%E5%8D%886.25.24.png)
 
 ## Credits
 

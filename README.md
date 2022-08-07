@@ -18,9 +18,9 @@
 # Notes
 -Disable Secure boot. <br>
 -Before installing use TOOLS/gensmbios for generatiing a serial key, mld and uuid of MacBookPro14,2/MacBookPro14,3 for your hackBook. <br>
--This EFI is strictly for MacOS monetery only !! <br>
+-This EFI is strictly for MacOS 10.13.6 only !! <br>
 -dGPU ( 940mx ) is disabled via boot parameter (-wegnoegpu) <br>
--You need to change the wifi kext according to your macOS version (this repo uses monetery)
+-You need to change the wifi kext according to your macOS version (this repo uses High Sierra)
 
 ## Not Working
 
@@ -43,6 +43,9 @@
 12. Card reader
 13. HDMI-output (audio and video)
 
+## Screenshots
+
+![屏幕快照 2022-08-07 下午6.25.24](/Users/zhonghao/Documents/Code/HP-Pavilion-14-bf033tx/README.assets/屏幕快照 2022-08-07 下午6.25.24.png)
 
 ## Credits
 

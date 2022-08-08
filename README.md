@@ -9,7 +9,7 @@
 | IGPU       | Intel HD Graphics 620                                |
 | DGPU       | Nvidia GeForce 940MX                                 |
 | Sound Card | Realtek ALC295 (Layout ID = 13, 28 or 77)            |
-| WIFI / BT  | Intel Corporation Dual Band Wireless-AC 3168NGW      |
+| WIFI / BT  | Intel Corporation Dual Band Wireless-AC 3168         |
 | Ethernet   | RTL8100/8169 PCI Express Gigabit Ethernet Controller |
 | CardReader | Realtek PCIE Card Reader                             |
 

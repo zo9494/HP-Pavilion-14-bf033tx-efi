@@ -8,19 +8,19 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-EC-USBX-LAPTOP.aml</string>
+				<string>SSDT-PLUG-DRTNIA.aml</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-EC-USBX-LAPTOP.aml</string>
+				<string>SSDT-PLUG-DRTNIA.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-PLUG-DRTNIA.aml</string>
+				<string>SSDT-EC-USBX-LAPTOP.aml</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-PLUG-DRTNIA.aml</string>
+				<string>SSDT-EC-USBX-LAPTOP.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -396,7 +396,7 @@
 			<key>SignalAppleOS</key>
 			<false/>
 			<key>SyncRuntimePermissions</key>
-			<false/>
+			<true/>
 		</dict>
 	</dict>
 	<key>DeviceProperties</key>
@@ -406,7 +406,7 @@
 			<key>PciRoot(0x0)/Pci(0x1F,0x3)</key>
 			<dict>
 				<key>layout-id</key>
-				<integer>28</integer>
+				<integer>13</integer>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
@@ -812,6 +812,46 @@
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
 			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>System/Library/Extensions/corecapture.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/corecapture</string>
+				<key>Identifier</key>
+				<string>com.apple.driver.corecapture</string>
+				<key>MaxKernel</key>
+				<string>19.99.99</string>
+				<key>MinKernel</key>
+				<string>17.0.0</string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>System/Library/Extensions/IO80211Family.kext</string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/IO80211Family</string>
+				<key>Identifier</key>
+				<string>com.apple.iokit.IO80211Family</string>
+				<key>MaxKernel</key>
+				<string>19.99.99</string>
+				<key>MinKernel</key>
+				<string>17.0.0</string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
 		</array>
 		<key>Patch</key>
 		<array>
@@ -1162,11 +1202,11 @@
 			<key>PickerAudioAssist</key>
 			<false/>
 			<key>PickerMode</key>
-			<string>Builtin</string>
+			<string>External</string>
 			<key>PickerVariant</key>
 			<string>Auto</string>
 			<key>PollAppleHotKeys</key>
-			<false/>
+			<true/>
 			<key>ShowPicker</key>
 			<true/>
 			<key>TakeoffDelay</key>
@@ -1177,9 +1217,9 @@
 		<key>Debug</key>
 		<dict>
 			<key>AppleDebug</key>
-			<true/>
+			<false/>
 			<key>ApplePanic</key>
-			<true/>
+			<false/>
 			<key>DisableWatchDog</key>
 			<false/>
 			<key>DisplayDelay</key>
@@ -1191,7 +1231,7 @@
 			<key>SysReport</key>
 			<false/>
 			<key>Target</key>
-			<integer>67</integer>
+			<integer>0</integer>
 		</dict>
 		<key>Entries</key>
 		<array>
@@ -1243,7 +1283,7 @@
 			<key>ScanPolicy</key>
 			<integer>0</integer>
 			<key>SecureBootModel</key>
-			<string>j137</string>
+			<string>Disabled</string>
 			<key>Vault</key>
 			<string>Optional</string>
 		</dict>
@@ -1358,6 +1398,37 @@
 		<true/>
 		<key>CustomMemory</key>
 		<false/>
+		<key>DataHub</key>
+		<dict>
+			<key>ARTFrequency</key>
+			<integer>0</integer>
+			<key>BoardProduct</key>
+			<string>Mac-CAD6701F7CEA0921</string>
+			<key>BoardRevision</key>
+			<data>Gw==</data>
+			<key>DevicePathsSupported</key>
+			<integer>0</integer>
+			<key>FSBFrequency</key>
+			<integer>0</integer>
+			<key>InitialTSC</key>
+			<integer>0</integer>
+			<key>PlatformName</key>
+			<string></string>
+			<key>SmcBranch</key>
+			<data>MjAxN21icAA=</data>
+			<key>SmcPlatform</key>
+			<data>ajc5YQAAAAA=</data>
+			<key>SmcRevision</key>
+			<data>AkQPAAAF</data>
+			<key>StartupPowerEvents</key>
+			<integer>0</integer>
+			<key>SystemProductName</key>
+			<string>MacBookPro14,2</string>
+			<key>SystemSerialNumber</key>
+			<string>C02VQVYSHV2N</string>
+			<key>SystemUUID</key>
+			<string>DA48538A-2AAB-4122-8BEA-1A38AB325F3F</string>
+		</dict>
 		<key>Generic</key>
 		<dict>
 			<key>AdviseFeatures</key>
@@ -1365,9 +1436,9 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02715902J9HRPC1M</string>
+			<string>C027477014NHRPCCB</string>
 			<key>ProcessorType</key>
-			<integer>0</integer>
+			<integer>1541</integer>
 			<key>ROM</key>
 			<data>ESIzRFVm</data>
 			<key>SpoofVendor</key>
@@ -1377,9 +1448,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro14,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02TK0ESHV2N</string>
+			<string>C02VQVYSHV2N</string>
 			<key>SystemUUID</key>
-			<string>DE9CC690-F839-450F-975D-2ABF9DC42CE6</string>
+			<string>DA48538A-2AAB-4122-8BEA-1A38AB325F3F</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -1470,6 +1541,16 @@
 				<true/>
 				<key>Path</key>
 				<string>OpenRuntime.efi</string>
+			</dict>
+			<dict>
+				<key>Arguments</key>
+				<string></string>
+				<key>Comment</key>
+				<string></string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>OpenCanopy.efi</string>
 			</dict>
 			<dict>
 				<key>Arguments</key>

@@ -18,7 +18,7 @@
 # Notes
 -Disable Secure boot. <br>
 -Before installing use TOOLS/gensmbios for generatiing a serial key, mld and uuid of MacBookPro14,2/MacBookPro14,3 for your hackBook. <br>
--This EFI is strictly for MacOS 10.13.6 only !! <br>
+-This EFI is strictly for MacOS Monterey only !! <br>
 -dGPU ( 940mx ) is disabled via boot parameter (-wegnoegpu) <br>
 -You need to change the wifi kext according to your macOS version (this repo uses High Sierra)
 

@@ -14,19 +14,6 @@
 | CardReader | Realtek PCIE Card Reader                             |
 
 
-
-# Notes
--Disable Secure boot. <br>
--Before installing use TOOLS/gensmbios for generatiing a serial key, mld and uuid of MacBookPro14,2/MacBookPro14,3 for your hackBook. <br>
--This EFI is strictly for MacOS 10.13.6 only !! <br>
--dGPU ( 940mx ) is disabled via boot parameter (-wegnoegpu) <br>
--You need to change the wifi kext according to your macOS version (this repo uses High Sierra)
-
-## Not Working
-
-1. Nvidia DGPU ( As you know, Optimus is not supported at the moment )
-2. You will face Fairplay4.0 issues
-
 ## Working
 
 1. Intel iGPU
